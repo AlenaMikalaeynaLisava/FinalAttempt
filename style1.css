@@ -1,0 +1,136 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    /* list-style: '\261b'; */
+    list-style: none;
+}
+b{  list-style: none;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    /* background: url(./icons8.png) center / contain no-repeat; */
+}
+
+/* span{
+    display: flex;
+}  */
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    }
+    th {
+    background: #BCEBDD;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+    }
+    th:first-child {
+    border-top-left-radius: 10px;
+    }
+    th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+    }
+    td {
+    padding: 10px 20px;
+    background: #F8E391;
+    }
+    tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+    }
+    tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    }
+    tr td:last-child {
+    border-right: none;
+    }
+#curr-sel{
+    width: 90px;
+    height: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    /* border-spacing: 0; */
+    text-align: center;
+    background: #BCEBDD;
+    color: white;
+    /* text-shadow: 0 1px 1px #2D2020; */
+    /* padding: 10px 20px; */
+}
+#company-department{
+    width: 190px;
+    height: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    /* border-spacing: 0; */
+    text-align: center;
+    background: #BCEBDD;
+    color: white;
+    /* text-shadow: 0 1px 1px #2D2020; */
+    /* padding: 10px 20px; */
+}
+.rotate{
+    transform: rotate(65deg);
+}
+.First{
+    font-weight: normal;
+}
+p{
+    display: flex;
+}
+/* 
+#First :first-child {
+    visibility: hidden;
+}
+#First :first-child  ul{
+    visibility: visible;
+}  */
+.hidden{
+    /* visibility: hidden;  */
+     display: none; 
+}
+.bold{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal;
+}
+button{
+    width: 120px;
+    height: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    /* border-spacing: 0; */
+    text-align: center;
+    background: #BCEBDD;
+    color: white;
+}
+option{
+    width: 120px;
+    height: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    /* border-spacing: 0; */
+    text-align: center;
+    background: #BCEBDD;
+    color: white;
+}
+#company-tree-container li span,  #company-tree-container li b{
+    cursor: pointer;
+}
