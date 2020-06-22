@@ -140,7 +140,10 @@ const companyTreeContainer = document.getElementById('company-tree-container');
 function buildCompanyTree(array,parentTag){
 array.forEach(element => {
   const li =document.createElement('li');
-  li.innerHTML = `<b> &#187;</b><span data-dept-id="${element.id}"> ${element.name}</span>`;
+  if(element.child){
+  li.innerHTML = `<b> &#187;</b><span data-dept-id="${element.id}"> ${element.name}</span>`;} else{
+    li.innerHTML = `<span data-dept-id="${element.id}"> ${element.name}</span>`;
+  }
   li.classList.add('normal');
   parentTag.appendChild(li);
 
